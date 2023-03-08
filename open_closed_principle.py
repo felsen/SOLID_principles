@@ -30,7 +30,6 @@ class Shape:
         pass
 
 
-
 class Rectangle(Shape):
 
     def __init__(self, height, width):
@@ -40,7 +39,6 @@ class Rectangle(Shape):
     @abstractmethod
     def area(self):
         return self.height * self.width
-
 
 
 class Square(Shape):
