@@ -10,7 +10,7 @@ from abc import ABC, abstractmethod
 # Bad example
 
 
-class Share:
+class Shape:
 
     def __init__(self, type):
         self.type = type
