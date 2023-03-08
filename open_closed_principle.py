@@ -1,5 +1,8 @@
 """
-This is the example about open-closed principle
+This is the example about open-closed principle.
+
+Class, Function, or Method should be open for extension but closed for modification. Easy to add new features.
+
 """
 
 from abc import ABC, abstractmethod
